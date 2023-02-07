@@ -1,0 +1,37 @@
+body {
+    background: url(imagens/fundo.png);
+}
+
+ul li {
+    list-style-type: none;
+    display: inline-flex;
+    margin-left: 5px;
+    margin-right: 5px;
+
+}
+.navegacao {
+    color: rgb(6, 43, 113);
+    background-color: rgb(208, 196, 181);
+    padding: 10px;
+    margin-right: 435px; 
+    
+}
+.sobre-anna {
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    margin-right: 435px;  
+    
+}
+.sobre-anna h1 {
+    color: rgb(208, 196, 181);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.direitos {
+   font-size: 10px;
+   margin-left: 300px;
+}
