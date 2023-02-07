@@ -35,3 +35,11 @@ p {
    font-size: 10px;
    margin-left: 300px;
 }
+.fotos-campanhas {
+    width: 600px;
+    border-image: 10px;
+    border-color: rgb(208, 196, 181);
+}
+.email {
+    
+}
