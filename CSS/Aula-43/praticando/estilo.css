@@ -1,0 +1,41 @@
+#principal {
+    width: 900px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    background: #e5e5e5;
+    padding: 10px;
+
+}
+
+.conteudo {
+    width: 260px;
+    border: 1px solid gray;
+    background: #f4f4f4;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px;
+    float: left;
+
+}
+.clear {
+    clear: left;
+}
+
+.galeria-dados {
+    float: left;
+    margin: 13px;
+    /*height: 208px;*/
+    border: 1px solid gray;
+    box-shadow: 5px 5px 10px;
+    border-radius: 10px 10px;
+    background: white;
+    width: 264px;
+
+}
+.formatacao-imagens {
+    border-radius: 10px 10px 2px 2px;
+}
+.text-img {
+    margin-left: 10px;
+}
