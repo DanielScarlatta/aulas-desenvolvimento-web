@@ -1,0 +1,40 @@
+/*O elemento float formata os elementos do body na ordem de escrita do HTML*/
+#principal {
+    border: 10px solid red;
+    background: green;
+    width: 700px;
+
+}
+
+.conteudo {
+    border: 1px solid gray;
+    background: blue;
+    width: 220px;
+    height:200px;
+    float: right;
+    margin: 10px;
+
+}
+
+/*.conteudo1 {
+    border: 1px solid gray;
+    background: red;
+    width: 200px;
+    height:250px;
+    float: left;
+    margin: 10px;
+
+}*/
+
+.conteudo-zero {
+    border: 20px solid gray;
+    background: red;
+    width: 200px;
+    height:250px;
+    margin: 10px;
+
+}
+.clear {
+    clear:  right;
+
+}
