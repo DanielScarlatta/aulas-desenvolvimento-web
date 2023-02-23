@@ -11,7 +11,8 @@ background: #007fc7;
 
 }
 h1 {
-    
+    /*posivionamento estatico é o padrão das tags*/
+    position: static;
 }
 
 p {
@@ -19,5 +20,10 @@ p {
   
 }
 .relative {
-    
+    border: 1px solid red;
+    position: relative;
+    /*top, left. right, botton,*/
+    /*pode usar medidas negativas para formatar sua posição*/
+    left: 400px;
+    bottom: 125px;
 }

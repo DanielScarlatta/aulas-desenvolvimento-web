@@ -1,0 +1,13 @@
+body {
+    background: rgb(72, 72, 227);
+}
+p {
+    width: 300px;
+}
+.conteiner {
+    background: #fff;
+    width: 800px;
+    margin: 10px auto;
+    padding: 10px;
+
+}
