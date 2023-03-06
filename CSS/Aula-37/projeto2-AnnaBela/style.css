@@ -1,0 +1,10 @@
+#principal {
+    background-image: url(arquivos-necessarios/fundo.png);
+}
+
+.conteudo {
+    width: 900px;
+    text-align: center;
+    font: 20px arial ;
+    background: #c2c2c2;
+}
