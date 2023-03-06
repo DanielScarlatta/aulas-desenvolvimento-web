@@ -4,7 +4,19 @@
 
 .conteudo {
     width: 900px;
-    text-align: center;
-    font: 20px arial ;
+    font: 18px arial ;
     background: #c2c2c2;
+}
+.navbar {
+    text-align: center;
+    padding: 15px;
+}
+
+h1 {
+    font-size: 19px;
+}
+.dados {
+    width: 900px;
+    padding: 10px;
+    background-color: #e2e2e2;
 }
