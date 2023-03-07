@@ -1,6 +1,6 @@
 .bordas {
     border: 1px solid red;
-    /*O comando display: muda a*/
+    /*O comando display: muda a o estilo das tags html. assim um div podendo virar inline*/
     display: inline;
     margin: 10px;
 }

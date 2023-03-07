@@ -1,0 +1,29 @@
+body {
+    background: #007fc7;
+}
+
+#container {
+    background: #fff;
+    width: 800px;
+    margin: 10px auto;
+    padding: 10px;
+
+}
+h1 {
+    
+}
+p {
+    width: 300PX;
+    
+}
+/*O posicionamento static vem como padrão em todos elementos html
+  O posicionamento relative voce pode mover os elementos de acordo
+  com sua posição inicial(static-padrão), left:20px ira mover o elemento selecionado
+  20px da esqueda da sua posição inicial
+*/
+.relative {
+    border: 1px solid red;
+    position: relative;
+    top: 20px;
+    left: 80px;
+}
