@@ -1,22 +1,36 @@
-#principal {
-    background-image: url(arquivos-necessarios/fundo.png);
+body {
+    background: #d2d2c1 url(arquivos-necessarios/fundo.png);
+    font: 16px Arial, Helvetica, sans-serif;
 }
 
-.conteudo {
+.principal {
     width: 900px;
-    font: 18px arial ;
-    background: #c2c2c2;
+    margin: auto;
+    
 }
 .navbar {
+    background: #c5c5b2;
     text-align: center;
     padding: 15px;
 }
-
-h1 {
-    font-size: 19px;
+.navbar a {
+    color: #4b566a;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px;
 }
-.dados {
-    width: 900px;
+
+.dados {  
     padding: 10px;
-    background-color: #e2e2e2;
+    background-color: #e8e8d9;
+}
+.dados h1 {
+    font-size: 1.2em;
+    color: #828271;
+}
+.centralizar {
+    text-align: center;
+}
+.imagens {
+    border: 10px solid #c3c3ae;
 }
