@@ -1,0 +1,6 @@
+.bordas {
+    border: 1px solid red;
+    /*O comando display: muda a*/
+    display: inline;
+    margin: 10px;
+}
