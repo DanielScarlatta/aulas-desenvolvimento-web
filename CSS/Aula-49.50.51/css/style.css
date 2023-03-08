@@ -1,4 +1,6 @@
-/*Limpando formatações padrão*/
+/*
+    Limpando formatações padrão
+*/
 * {
     margin: 0px;
     padding: 0px;
@@ -8,6 +10,41 @@ body {
     font-family: 'Trebuchet MS', Helvetica, sans-serif;
     background: #e6e6e6;
 }
+
+/*
+    Formatações navbar
+*/
+
+a {
+    text-decoration: none;
+
+}
+
+a:link, a:visited {
+    color: #f7b600;
+
+}
+
+a:hover {
+    text-decoration: underline;
+    border-radius: 100px;
+}
+
+#cabecalho a:link, #cabecalho a:visited {
+    color: #fff;
+    padding: 8px 12px;
+
+}
+
+#cabecalho a:hover {
+    color:#f7b600;
+    background: #fff;
+    text-decoration: none;
+}
+
+
+
+
 
 /*
     layout
@@ -80,36 +117,6 @@ body {
     clear: both;
 }
 
-
-/*
-    Formatações navbar
-*/
-
-a {
-    text-decoration: none;
-
-}
-
-a:link, a:visited {
-    color: #f7b600;
-
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-#cabecalho a:link, #cabecalho a:visited {
-    color: #fff;
-    padding: 8px 12px;
-
-}
-
-#cabecalho a:hover {
-    color:#f7b600;
-    background: #fff;
-    text-decoration: none;
-}
 
 /*
     Formatações gerais
