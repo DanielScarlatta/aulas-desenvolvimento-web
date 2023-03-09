@@ -1,0 +1,80 @@
+/*************************
+    Seletor universal
+
+
+* {
+    border: 1px solid red;
+}
+*/
+
+/*************************
+    seletor de texto
+*/
+
+h1 {
+    color: green;
+}
+
+/*************************
+    Seletor de classe
+
+.verde {
+    color: green;
+}
+
+//limita o uso da clase .verde apenas para <p> paragrafos
+
+p.verde {
+    color: green;
+}
+*/
+
+/*************************
+    Seletor de ID
+
+*/
+
+#cabecalho {
+
+}
+
+/*************************
+    Seletor de Filho
+
+*/
+
+li>a {
+    color: red;
+    text-decoration: none;
+}
+
+/*************************
+    Seletor de decendente
+
+*/
+
+p a {
+    color: gold;
+}
+
+/*************************
+    Seletor de irmão adjacentes
+
+    seleciona o primeiro elemento p depois de um elemento h1
+
+*/
+
+h1+p {
+    color: blueviolet;
+}
+
+/*************************
+    Seletor de irmão geral
+
+    seleciona o todos elementos <p> abaixo de h1 
+
+*/
+
+h1~p {
+    color: aqua;
+}
