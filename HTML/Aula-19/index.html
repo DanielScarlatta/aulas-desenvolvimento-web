@@ -1,0 +1,56 @@
+<!doctype html>
+
+<html>
+
+<head>
+    <title>Site</title>
+    <meta charset="utf-8">
+</head>
+
+<body>
+    <h1>Lista de compra</h1>
+    <table border="2" width="300">
+        <!--Cria a tabela border, width(100% - faz a tabela ocupar o tamanho em % do navegador), height -->
+        <tr><!--Cria a linha-->
+            <th>codigo</th><!--Table header - cria o cabeçalho da tabela -->
+            <th>nome</th>
+            <th>quantidade</th>
+            <th>preço</th>
+        </tr>
+        <tr>
+            <td>001</td>
+            <td>arroz</td>
+            <td>2</td>
+            <td>20</td>
+        </tr>
+        <tr>
+            <td>002</td>
+            <td>feijão</td>
+            <td>7</td>
+            <td>35</td>
+        </tr>
+        <tr><!--Faz a junção das linhas da tabelas-->
+            <td rowspan="2">Desconto</td>
+            <!--Faz a junção de colulas da tabela-->
+            <td colspan="3">Cupom 1 - R$10</td>
+        </tr>
+
+        <tr>
+            <!--Faz a junção das colunas da tabela-->
+            <td colspan="3">Cupom 2 - R$12</td>
+        </tr>
+
+        <tr>
+            <td>Total:</td>
+            <td colspan="">R$: 55.00</td>
+        </tr>
+
+
+    </table>
+
+    <img src="imagens/ferrari.jpg" width="10%">
+
+
+</body>
+
+</html>
