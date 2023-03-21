@@ -4,13 +4,10 @@ Layout*/
 
 body {
     font-family: 'Trebuchet MS', helvetica,sans-serif;
-    background: #f2f2f2; border: 1px solid red;
 }
 
 #conteiner {
-    border: 1px solid red;
     width: 960px;/*720px*/
-    height: 200px;
     min-width: 820px;
     max-width: 1080px;
     margin: 0 auto;
@@ -80,7 +77,7 @@ img.img-noticia {
     float: left;
     padding-top: 20px;
     padding-bottom: 20px;
-    background: #d1d1d1;
+   /* background: #d1d1d1;*/
 }
 #navegacao ul {
     list-style: none;
