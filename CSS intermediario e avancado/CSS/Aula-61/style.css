@@ -1,0 +1,110 @@
+/******
+Layout*/
+
+
+body {
+    font-family: 'Trebuchet MS', helvetica,sans-serif;
+    background: #f2f2f2;
+}
+
+#conteiner {
+    width: 85%;/*720px*/
+    height: 200px;
+    min-width: 820px;
+    max-width: 1080px;
+    margin: 0 auto;
+    background: #fff;
+
+    /*
+        max-height: ;
+    */
+
+}
+
+#marca {
+    height: 100%;
+    text-align: center;
+    line-height: 200px;
+    background: #225992 url(arquivos-necessarios-imagens-liquidas/cabecalho2.jpg) no-repeat center;
+
+}
+
+#conteudo {
+    width: 75%; /*520px*/
+    min-width: 520px;
+    float:right;
+    
+}
+
+#conteudo-left {
+    float: left;
+    width: 63%;/*320*/
+    min-width: 320px;
+    
+}
+
+img.img-noticia {
+    width: 94%;
+    padding: 2%;
+    max-width: 600px;
+}
+
+/*
+#imagem {
+    width: 90%;
+    overflow: hidden;
+
+}*/
+
+#conteudo-right {
+    width: 34%;/*180*/
+    min-width: 180px;
+    float: right;
+    background: #d1d1d1;
+}
+
+#conteudo-right h1,
+#conteudo-right h2,
+#conteudo-right h3,
+#conteudo-right p {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+
+#navegacao {
+    width: 23%;/*180*/
+    min-width: 180px;
+    float: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: #d1d1d1;
+}
+#navegacao ul {
+    list-style: none;
+}
+#navegacao li a {
+    text-decoration: none;
+}
+
+#rodape {
+    clear: both;
+    background: #c4c4c4;
+    padding: 5px;
+}
+
+#navegacao ul li a {
+    text-decoration: none;
+
+}
+
+
+
+
+
+
+
+
+
+
