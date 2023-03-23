@@ -1,0 +1,44 @@
+/**************************
+Arredondamento com imagens*/
+/*
+.caixa {
+    width: 400px;
+    background: #dedede url(arquivos-necessarios-arredondamento-com-imagens/topo.png) left top no-repeat;
+    
+}
+
+.caixa h2 {
+    padding: 10px 20px 0 20px;
+}
+.caixa p {
+    background: url(arquivos-necessarios-arredondamento-com-imagens/baixo.png) left bottom no-repeat;
+    padding: 0 20px 20px 20px;
+}
+
+*/
+
+.caixa {
+    width: 400px;
+    background: #dedede url(arquivos-necessarios-arredondamento-com-imagens/fundo-arredondamento.png) repeat-y;
+    
+}
+
+.caixa h2{
+    padding: 10px 20px 0 20px;
+    background: url(arquivos-necessarios-arredondamento-com-imagens/topo2.png) left top no-repeat;
+    
+}
+
+.caixa p {
+    padding: 0px 20px;
+    margin-bottom: 0px;
+
+} 
+.caixa .ultimo {
+    /*padding: 0 20px 20px 20px;*/
+    background: url(arquivos-necessarios-arredondamento-com-imagens/baixo2.png)
+    left bottom no-repeat;
+      width: 400px;
+      height: 24px;
+ 
+}
