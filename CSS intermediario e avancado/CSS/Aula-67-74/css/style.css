@@ -83,6 +83,27 @@ body.fotos #navbar a#fotos {
 ********************************/
 
 #conteudo {
+    margin-top: 50px;
+    border: 1px solid red;
+    width: 720px;
+    text-align: center;
     
 }
 
+#primario, #secundario {
+    width: 250px;
+    float: right;
+
+}
+
+#lateral {
+    width: 200px;
+    float: left;
+    background: #de003e;
+    
+}
+
+.clear {
+    clear: both;
+
+}
