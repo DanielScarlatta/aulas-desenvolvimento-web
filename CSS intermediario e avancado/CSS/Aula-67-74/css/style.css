@@ -92,14 +92,12 @@ body.fotos #navbar a#fotos {
     width: 180px;
     margin: 0 0 20px -750px;
     float: left;
-    background: yellow;
-    float: left;
+
 }
 
-#tres-colunas #primario {
+#primario {
     width: 270px;
     float: left;
-    background: blue;
     margin: 0 0 20px 195px;
 
 }
@@ -123,9 +121,132 @@ body.fotos #navbar a#fotos {
     width: 270px;
     margin: 0 0 20px 15px;
     float: left;
-    background: green;
     
 }
+/*Caixa
+*******/
+
+.caixa {
+    margin: 10px 0px;
+    padding: 0px 0 5px 0;
+    background: #f3f3f3 url(../imagens/fundo-caixa.png);
+    
+}
+ h2 {
+    background: #294c71;
+    color: #fff;
+    font-size: 1.1em;
+    padding: 5px;
+}
+
+.caixa-conteudo {
+    background: #fff;
+    padding: 5px;
+    margin: 10px 5px;
+
+}
+
+/*Conteudos laterais
+********************/
+
+
+
+#lateral ul a {
+    text-decoration: none;
+    line-height: 30px;
+    padding: 3px;
+    color: #000;
+    border: 1px solid #f3f3f3;
+    display: block;
+}
+
+#lateral a:hover  {
+    background:#f9f9f9 url(../imagens/marcador.png) no-repeat left;
+    color: #a1a1a1;
+    padding-left: 20px;
+    /*text-indent: 20px;
+        indenta apenas a primeira linha do texto
+    */
+
+}
+
+/*Conteudos laterais - News
+********************/
+
+label {
+    display: block;
+    cursor: pointer;
+}
+input {
+    font-size: 0.9em;
+    background-color: #fff;
+    padding: 5px;
+    width: 140px;
+}
+
+
+input.news-submit {
+    width: 80px;
+    color: #fff;
+    background-color: #b10333;
+    border: 2px solid #870529;
+    margin-top: 2px;
+}
+
+
+input.news-submit:hover {
+    border: 2px solid #b10333;
+    background-color: #de003e;
+    cursor: pointer;
+}
+
+/*****Meu condigo
+#lateral #news-submit {
+    background: #b10333;
+    border: 2px solid rgb(132, 6, 6) ;
+    color: white;
+    padding: 5px;
+    margin-top: 3px;
+
+}
+
+#lateral #news-email {
+    width: 150px;
+    display: block;
+    height: 25px;
+
+}
+*/
+
+/*Noticias unicas
+********************/
+
+.noticia-unica h3 {
+    display: inline-block;
+    font-size: 0.9em;
+    background-color: #de003e;
+    color: white;
+    padding: 2px;
+    margin-bottom: 3px;
+   
+}
+
+.noticia-unica a {
+    color: #b10333;
+   
+}
+
+.img-noticia-unica {
+    width: 245px;
+    border: 3px solid #c4c4c4;
+    
+}
+
+/*Noticias resumidas
+********************/
+
+
+
 
 
 
