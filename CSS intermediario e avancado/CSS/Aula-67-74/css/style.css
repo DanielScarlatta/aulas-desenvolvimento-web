@@ -246,20 +246,38 @@ img.img-noticia-unica {
 /*Noticias resumidas
 ********************/
 
-.lista-noticia {
+.lista-noticias li{
     padding: 2px;
     border-bottom: 1px solid #ccc;
-    height: 65px;
+    height: 62px;
 
 }
 
+.lista-noticias li a {
+    text-decoration: none;
+    color: #000;
+
+}
+
+.lista-noticias li:hover {
+    background: #eee;
+    cursor: pointer;
+}
+
+
+.lista-noticias li a h3 {
+    color: #2998c4c4;
+    font-size: 0.9em;
+    text-transform: uppercase;
+
+    
+}
 
 .lista-noticias li a img{
+    float: left;
     width: 80px;
+    margin: 5px;
 }
-
-
-
 
 
 
@@ -270,7 +288,6 @@ img.img-noticia-unica {
     clear: both;
     background: #294c71;
     padding: 20px;
-    clear: both;
 
 }
 
