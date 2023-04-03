@@ -9,7 +9,7 @@ body {
 
 #conteiner {
     width: 85%;/*720px*/
-    min-width: 720px;
+    min-width: 760px;
     max-width: 1080px;
     margin: 0 auto;
     background: #fff;
