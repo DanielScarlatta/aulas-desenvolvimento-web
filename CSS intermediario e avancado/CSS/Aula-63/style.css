@@ -1,38 +1,49 @@
-/**********************
-Estilização de tabelas*/
-
 body {
-    font-family: 'Trebuchet MS', helvetica ,sans-serif;
+    font-family: 'Trebuchet MS', helvetica , sans-serif;
 }
 
 table {
     width: 600px;
-    border-collapse: collapse;/*collapse, separate */
+    border-collapse: collapse; /*collapse*/
+}
 
-}
-th, td {
-   /* border: 1px solid red;*/
+table th, td {
     padding: 7px;
-    
 }
-th {
-    text-transform: uppercase;
+
+#cabecalho {
+    text-align: left;
     border-top: 1px solid #999;
     border-bottom: 1px solid #111;
-    text-align: left;
-    font-size: 90%;
+    text-transform: uppercase;
+    font-size: 0.9em;
     letter-spacing: 0.1em;
 }
 
-tr.alternado {
-    background-color: #efefef;
+.preco {
+    text-align: right;
+}
 
+tr:nth-child(even) {
+    background-color: #efefef;
+}
+  
+tr:nth-child(odd) {
+    background-color: #FFFFFF;
 }
 
 tr:hover {
-    background: #c3e6e5;
+    background-color: #c3e6e5;
 }
 
-.numero {
-    text-align: right;
-}
+
+  /*
+  O seletor :nth-child() seleciona elementos com base na sua posição na lista de elementos. O argumento dentro dos parênteses indica qual posição deve ser selecionada. No exemplo acima, o seletor :nth-child(even) seleciona todos os elementos que estão em uma posição par (2, 4, 6, etc.) e o seletor :nth-child(odd) seleciona todos os elementos que estão em uma posição ímpar (1, 3, 5, etc.).
+  
+  Com esse código, todas as linhas pares da tabela terão um fundo cinza claro (#CCCCCC) e as linhas ímpares terão um fundo branco (#FFFFFF). Isso deve funcionar independentemente do número de linhas na tabela.
+  */
+  
+  
+  
+  
+  
