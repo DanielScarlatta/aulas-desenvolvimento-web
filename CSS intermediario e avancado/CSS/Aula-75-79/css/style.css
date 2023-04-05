@@ -1,3 +1,39 @@
 /*Projeto chalé hotel
 *********************/
 
+body {
+    font-family: 'Trebuchet MS', helvetica, sans-serif;
+   
+}
+
+fieldset {
+    padding: 1em;   
+    border: 1px solid #ccc;
+    background-color: #f8f8f8;
+    margin: 1em 0;
+
+}
+
+legend {
+    font-weight: bold; /*Deixa em negrito*/
+}
+label {
+    display: block;
+    cursor: pointer;
+
+}
+input {
+    width: 20em;
+    
+}
+
+textarea {
+    width: 20em;
+    height: 10em;
+}
+
+input.radio, input.submit {
+    width: auto;
+    margin-right: 1em;
+}
+
