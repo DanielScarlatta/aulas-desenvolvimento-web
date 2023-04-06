@@ -1,39 +1,23 @@
 /*Projeto chalé hotel
 *********************/
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: 'Trebuchet MS', helvetica, sans-serif;
-   
 }
 
-fieldset {
-    padding: 1em;   
-    border: 1px solid #ccc;
-    background-color: #f8f8f8;
-    margin: 1em 0;
+#logo {
+    background: url(../imagens/topo-imagem-principal.png) no-repeat top left;
+    height: 250px;
 
 }
 
-legend {
-    font-weight: bold; /*Deixa em negrito*/
-}
-label {
-    display: block;
-    cursor: pointer;
-
-}
-input {
-    width: 20em;
+#navbar {
+    height: 250px;
+    background: url(../imagens/topo-imagem-lateral.png) no-repeat top right;
     
 }
-
-textarea {
-    width: 20em;
-    height: 10em;
-}
-
-input.radio, input.submit {
-    width: auto;
-    margin-right: 1em;
-}
-
