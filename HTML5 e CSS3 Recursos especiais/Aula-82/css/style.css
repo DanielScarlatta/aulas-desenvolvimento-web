@@ -1,0 +1,10 @@
+/*Estilizando formularios */
+
+input, label, button {
+    display: block;
+    
+}
+
+fieldset input {
+    margin-bottom: 10px;
+}

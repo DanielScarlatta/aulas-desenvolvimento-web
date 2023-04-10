@@ -1,0 +1,13 @@
+/* Fontes customizadas
+**********************/
+
+@font-face {
+    font-family: "Cream Cake";
+    src: url(CreamCake.woff);
+}
+
+h1 {
+    font-size: 6em;
+    font-family: "Cream Cake";
+
+}
