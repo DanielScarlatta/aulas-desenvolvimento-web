@@ -1,0 +1,70 @@
+/*Animaçoes */
+
+@keyframes animacao-caixa {
+    from { /*Estado INICIAL do elemento que será animado*/
+        background: yellow;
+        border-radius: 30px;
+        
+    }
+    to { /*Estado FINAL do elemento que será animado*/
+        background: red;
+        width: 90%;
+        height: 200px;
+        border-radius: 10px;
+
+    } 
+
+}
+
+/* @keyframes animacao-caixa-externa {
+    from {
+        width: 100px;
+        height: 100px;
+        background: yellow;
+        border-radius: 100%;
+    }
+    to {
+        width: 400px;
+        height: 400px;
+        background: red;
+        
+    }
+} 
+
+#caixa-fora {
+    position: relative;
+    
+    position: absolute;
+    top: 200px;
+    left: 100px;
+    background: green;
+    animation-name: animacao-caixa-externa;
+    animation-duration: 7s;
+    animation-delay: 2s;
+    animation-iteration-count: 3;
+    animation-direction: alternate;
+
+} */
+
+
+body {
+    
+}
+
+#caixa {
+    width: 300px;
+    height: 300px;
+    background: yellow;
+    border-radius: 30px;
+    margin: 0 auto;
+
+    animation: animacao-caixa 5s 1s forwards;
+
+    /* animation-name: animacao-caixa;
+    animation-duration: 7s;
+    animation-delay: 2s;
+    animation-iteration-count: 3;
+    animation-direction: reverse; */
+
+    
+}
