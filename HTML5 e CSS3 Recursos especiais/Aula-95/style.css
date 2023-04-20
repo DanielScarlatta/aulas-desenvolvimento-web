@@ -1,0 +1,51 @@
+
+#conteudo {
+    background: #dcdcdc;
+    height: 400px;
+    display: flex;
+
+    /*Especifica a direção do layout sendo linha e coluna*/
+    /*row, row-reverse, column, column-reverse*/
+    /*flex-direction: row;*/
+    
+    /*Quebra a linha do flex box com diversas configurações*/
+    /*nowrap, wrap, wrap-reverse*/
+    /*flex-wrap: nowrap;*/
+
+
+    /*Esta elemento faz o alinhamento dos item dentro do conteiner*/
+    /*flex-start, flex-end, center, space-between, space-around*/
+    /*justify-content: space-around;*/
+
+    /*stretch, center, flex-start, flex-end, baseline*/
+    /*align-items: baseline;*/
+}
+.item {
+    background-color: white;
+    border: 1px solid gray;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+
+}
+
+/*Define a ordem para os item dentro do conteiner*/
+
+.ordem1 {
+    order: 1;
+}
+
+.ordem2 {
+   order: 2; 
+}
+
+.ordem3 {
+    order: 3;
+}
+
+.ordem4 {
+    order: 4;
+}
+.ordem {
+    order: -1;
+}
