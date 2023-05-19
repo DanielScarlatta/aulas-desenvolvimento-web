@@ -29,10 +29,13 @@
 
 }
 
+/*flex-grow pode ser usado juntamente com o max-widht para criar um conteudo adaptativo para seu layaout*/
+
 /*Define a ordem para os item dentro do conteiner*/
 
 .ordem1 {
     order: 1;
+    
 }
 
 .ordem2 {
